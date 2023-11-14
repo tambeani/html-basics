@@ -2,12 +2,11 @@
 <html lang="en">
 <head>
     <style>
-        .product {
-            background-color: gold;
-            width: 300px;
+        .product{
+
         }
-        .highlight{
-            background-color: yellow;
+        #products{
+            background-color: red;
         }
     </style>
     <meta charset="UTF-8">
@@ -15,18 +14,10 @@
     <title>Document</title>
 </head>
 <body>
-    <!-- Division Element-->
-    <div class="product">
-        <p>Lorem ipsum dolor sit amet.</p>
-        <a href="#">Link</a>
-    </div>
-    <!-- Span Element -->
-
-    <!-- Incorrect way of higlighting first word -->
-    <p><div class="highlight">Lorem</div> ipsum dolor sit amet.</p>
-
-    <!-- Correct way of higlighting first word -->
-    <p><span class="highlight">Lorem</span> ipsum dolor sit amet.</p>
-
+    <section id="products">
+        <article class="product">Product 1</article>
+        <article class="product">Product 2</article>
+        <article class="product">Product 3</article>
+    </section>
 </body>
 </html>
